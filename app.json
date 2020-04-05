@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ALCoilCalculator",
-    "slug": "AL Coil",
+    "name": "Aluminum Coil Calculator",
+    "slug": "al-coil-calc",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,11 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.connerpinson.alcoilcalc",
+      "versionCode": 2,
+      "permissions": []
     }
   }
 }

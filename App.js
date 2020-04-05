@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Switch, Button, StyleSheet, Text, View, TextInput } from 'react-native';
-import styled from "styled-components";
+import { Switch, Button, StyleSheet, Text, View, TextInput } from 'react-native';
 import { getProvidesAudioData } from 'expo/build/AR';
 
 class ErrorBoundary extends React.Component {
@@ -261,10 +260,10 @@ const styles = StyleSheet.create({
     width: '50%',
     textAlign: "right",
     textAlignVertical: "center",
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   },
   input: {
     width: '50%',
-    marginLeft: 10
+    marginLeft: 10,
   },
 });
